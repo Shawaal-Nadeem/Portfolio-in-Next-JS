@@ -2,26 +2,103 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@500;600&display=swap');
+
+body
+{
+  background: rgba(15,23,42,255);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+.home video
+{
+  display: block;
+  object-fit: fill;
+  width: 100%;
+z-index: -1;
+position: absolute;
+height: 100%;
+}
+header nav
+{
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  font-family: 'Poppins', sans-serif;
+  color: #FFFFFF;
+}
+header nav h3
+{
+  font-size: 30px;
+  font-weight: 600;
+  margin-top: 4%;
+  margin-left: 4%;
+}
+header nav ul
+{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 4%;
+  margin-right: 25%;
+  font-size: 23px;
+}
+header nav ul li
+{
+  margin-left: 15%;
+   font-weight: 150;
+}
+header nav ul .navBtn
+{
+  color: rgba(255, 255, 255, 0.5);
+}
+header nav ul .navBtn:hover
+{
+color: #FFFFFF;
+transition: .5s;
+}
+.home .name
+{
+  position: relative;
+  color: white;
+  margin-left: 4%;
+  margin-top: 5%;
+}
+.home .name h1
+{
+  font-family: 'Pacifico', cursive;
+  font-size: 55px;
+}
+.home .name h2
+{
+  font-family: 'Pacifico', cursive;
+  font-size: 50px;
+}
+.home .name h1 span
+{
+  color: #7477FF;
+}
+.home .name p
+{
+  margin-top: 3%;
+  color: #CCCCCC;
+}
+.hireBtn
+{
+  width: 190px;
+  height: 55px;
+  background-color: #5c5efd;
+  font-size: 22px;
+  border-radius: 8px;
+  margin-top: 5%;
+  font-family: 'popins',sans-serif;
+  font-weight: 300;
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+/* About ME Page */
+.about
+{
+  background-color: rgba(30,41,59,255);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
