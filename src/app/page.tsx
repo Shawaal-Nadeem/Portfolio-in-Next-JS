@@ -10,9 +10,9 @@ export default function Home() {
 <ul>
   <li><a href="/">Home</a></li>
   <li className="navBtn"><a href="#about">About</a></li>
-  <li className="navBtn"><a href="/">Blogs</a></li>
+  <li className="navBtn"><a href="#projects">Projects</a></li>
+  <li className="navBtn"><a href="#blogs">Blogs</a></li>
   <li className="navBtn"><a href="/">Contact</a></li>
-  <li className="navBtn"><a href="/">Resume</a></li>
 </ul>
     </nav>
   </header>
@@ -56,6 +56,26 @@ export default function Home() {
 <div className="pic">
   <img src="/images/aboutimg.png"></img>
 </div>
+</div>
+<div className="projects" id="projects">
+  <br/> 
+  <div className="content">
+  <h1>PROJECTS</h1>
+  <div className="projPics">
+  <a href="https://resume-in-next-js.vercel.app/"><img src="/images/resume.png"></img></a>
+  <a href="https://timely-malabi-4992be.netlify.app/"><img src="/images/apple.png"></img></a>
+  <a href="https://fastidious-peony-79400b.netlify.app/"><img src="/images/wild.png"></img></a>
+  </div>
+  <div className="projPics">
+  <a href="https://jolly-pothos-054324.netlify.app/"><img src="/images/tax.png"></img></a>
+  <a href="https://voluble-mochi-872c02.netlify.app/"><img src="/images/compiler.png"></img></a>
+  <a href="https://sweet-taiyaki-797094.netlify.app/"><img src="/images/expense.png"></img></a>
+  </div>
+  </div>
+  <br/><br/><br/>
+</div>
+<div className="blogs" id="blogs">
+
 </div>
     </div>
   )
