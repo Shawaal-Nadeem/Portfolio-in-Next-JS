@@ -7,9 +7,13 @@
 
 body
 {
-  background: rgba(15,23,42,255);
+  /* background: rgba(15,23,42,255); */
+  background-color: rgba(30,41,59,255);
 }
-
+html
+{
+  scroll-behavior: smooth;
+}
 .home video
 {
   display: block;
@@ -101,4 +105,45 @@ transition: .5s;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-bottom: 5%;
+}
+.seperator
+{
+  margin-top: 10%;
+}
+.about .content
+{
+  margin-left: 4%;
+  display: block;
+  box-sizing: border-box;
+  width: 60%;
+  color: #FFFFFF;
+}
+.about .content h1
+{
+font-family: 'popins',sans-serif;
+font-size: 50px;
+font-weight: 550;
+text-decoration: underline #5c5efd;
+}
+.about .content p
+{
+  margin-top: 3%;
+  font-size: 20px;
+}
+.about .content .aboutHeading2
+{
+  font-weight: bold;
+}
+.tech
+{
+  display: flex;
+}
+.tech p
+{
+  width:30%
+}
+.about .pic
+{
+  width: 30%;
 }
