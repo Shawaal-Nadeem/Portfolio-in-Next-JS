@@ -222,7 +222,7 @@ text-decoration: underline #5c5efd;
 }
 .blogImages .tagBtn
 {
-  margin-top: 2.5%;
+  margin-top: 3%;
 }
 .blogImages .tagBtn button
 {
@@ -257,4 +257,59 @@ text-decoration: underline #5c5efd;
   color: #FFFFFF;
   margin-left: 4%;
   margin-bottom: 4%;
+}
+
+/* CONTACT */
+.contact
+{
+  margin-top: 4%;
+}
+.contact .content
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #FFFFFF;
+  flex-direction: column;
+}
+.contact .content h1
+{
+  font-family: 'popins',sans-serif;
+  font-size: 50px;
+  font-weight: 550;
+  text-decoration: underline #5c5efd;
+}
+.contact .content p
+{
+  margin-top: 3%;
+  font-size: 20px;
+  width: 60%;
+  margin-bottom: 3%;
+}
+.contactInfo
+{
+  display: flex;
+  flex-direction: column;
+}
+.contactDetail
+{
+  display: flex;
+}
+.contactDetail .head
+{
+  font-weight: bold;
+}
+
+/* Footer */
+footer
+{
+  background-color: rgba(15,23,42,255);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: #FFFFFF;
+}
+footer div
+{
+  display: flex;
 }

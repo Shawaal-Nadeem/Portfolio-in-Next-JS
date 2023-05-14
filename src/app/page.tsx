@@ -1,3 +1,4 @@
+import { FaCopyright } from 'react-icons/fa';
 
 export default function Home() {
   return (
@@ -12,7 +13,7 @@ export default function Home() {
   <li className="navBtn"><a href="#about">About</a></li>
   <li className="navBtn"><a href="#projects">Projects</a></li>
   <li className="navBtn"><a href="#blogs">Blogs</a></li>
-  <li className="navBtn"><a href="/">Contact</a></li>
+  <li className="navBtn"><a href="#contact">Contact</a></li>
 </ul>
     </nav>
   </header>
@@ -101,6 +102,32 @@ export default function Home() {
 <button className="readBtn">Read More</button>
 </div>
 </div>
+<div className="contact" id="contact">
+  <div className="content">
+    <h1>Contact Me</h1>
+    <p>Get in touch with me for any inquiries, collaborations, or opportunities. I'm always interested in connecting with new people and exploring exciting projects. Feel free to reach out through the contact form, email, or phone, and I'll respond promptly. I look forward to hearing from you!</p>
+    <div className="contactInfo">
+    <div className="contactDetail">
+    <p className="head">Email:</p>
+    <p className="info">webdevpro55@gmail.com</p>
+  </div>
+  <div className="contactDetail">
+    <p className="head">Phone:</p>
+    <p className="info">+923096946556</p>
+  </div>
+  </div>
+  </div>
+</div>
+<footer>
+  <div>
+  <FaCopyright size={24}/>
+  <span> &nbsp;</span>
+<p>2023 All Rights Reserved</p>
+  </div>
+  <div>
+    mvnzdfbvznz,bvzbx,
+  </div>
+</footer>
     </div>
   )
 }
