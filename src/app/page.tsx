@@ -57,6 +57,7 @@ export default function Home() {
   <img src="/images/aboutimg.png"></img>
 </div>
 </div>
+<div className="bgcolor">
 <div className="projects" id="projects">
   <br/> 
   <div className="content">
@@ -75,7 +76,30 @@ export default function Home() {
   <br/><br/><br/>
 </div>
 <div className="blogs" id="blogs">
-
+<div className="content">
+  <h1>BLOGS</h1>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tristique enim ac felis cursus, ut cursus ligula cursus. Duis varius nisi ut nisl hendrerit, eget venenatis nisi luctus. Nunc</p>
+</div>
+<div className="blogImages">
+  <div>
+  <img src="/images/blogPic1.png"></img>
+  <div className="tagBtn">
+  <button>Tag</button>
+  <button className="tagBtn2">Tag</button>
+  </div>
+  <p>ut cursus ligula cursus. Duis varius nisi ut nisl hendrerit, eget venenatis nisi luctus. Nunc</p>
+  </div>
+  <div>
+  <img src="/images/blogPic2.png"></img>
+  <div className="tagBtn">
+  <button>Tag</button>
+  <button className="tagBtn2">Tag</button>
+  </div>
+  <p>ut cursus ligula cursus. Duis varius nisi ut nisl hendrerit, eget venenatis nisi luctus. Nunc</p>
+  </div>
+</div>
+<button className="readBtn">Read More</button>
+</div>
 </div>
     </div>
   )

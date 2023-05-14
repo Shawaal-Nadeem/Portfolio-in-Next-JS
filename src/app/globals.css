@@ -149,9 +149,12 @@ text-decoration: underline #5c5efd;
 }
 
 /* PROJECTS */
-.projects
+.bgcolor
 {
   background-color: rgba(15,23,42,255);
+}
+.projects
+{
   color: #FFFFFF;
 }
 .projects .content
@@ -176,4 +179,82 @@ text-decoration: underline #5c5efd;
 .projects .content .projPics img
 {
   width: 90%;
+  height: 230px;
+}
+
+/* BLOGS */
+.blogs
+{
+margin-top: 3.5%;
+}
+.blogs .content
+{
+  margin-left: 4%;
+  color: #FFFFFF;
+}
+.blogs .content h1
+{
+  font-family: 'popins',sans-serif;
+font-size: 50px;
+font-weight: 550;
+text-decoration: underline #5c5efd;
+}
+.blogs .content p
+{
+  margin-top: 3%;
+  width: 50%;
+  font-size: 20px;
+}
+.blogImages
+{
+  margin-top: 3%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.blogImages div
+{
+  margin-left: 4%;
+}
+.blogImages img
+{
+  width: 90%;
+}
+.blogImages .tagBtn
+{
+  margin-top: 2.5%;
+}
+.blogImages .tagBtn button
+{
+  background-color: #5c5efd;
+  color: #FFFFFF;
+  width: 10%;
+  height: 40px;
+  border-radius: 15%;
+  margin-left: -4%;
+}
+.blogImages .tagBtn .tagBtn2
+{
+  margin-left: 2%;
+} 
+.blogImages p
+{
+  margin-top: 3%;
+  width: 90%;
+  font-size: 20px;
+  color: #FFFFFF;
+}
+.readBtn
+{
+  width: 160px;
+  height: 45px;
+  background-color: #5c5efd;
+  font-size: 22px;
+  border-radius: 6px;
+  margin-top: 2.5%;
+  font-family: 'popins',sans-serif;
+  font-weight: 300;
+  color: #FFFFFF;
+  margin-left: 4%;
+  margin-bottom: 4%;
 }
