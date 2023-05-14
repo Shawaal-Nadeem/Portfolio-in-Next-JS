@@ -31,7 +31,7 @@ export default function Home() {
   <h1>About Me</h1>
   <p>I have created responsive and user-friendly websites using modern front-end technologies. Leveraging my knowledge of HTML, CSS, and JavaScript, I have implemented intuitive user interfaces, engaging animations, and seamless navigation. I am well-versed in popular front-end frameworks such as Bootstrap and Foundation. I have utilized these frameworks to streamline development processes, enhance cross-browser compatibility, and ensure mobile responsiveness.</p>
 <br/>
-<p className="aboutHeading2">Technologies I've worked with:</p>
+<p className="aboutHeading2">Technologies I have worked with:</p>
 <br/>
 <div className="tech">
   <p>Html</p>
@@ -105,7 +105,7 @@ export default function Home() {
 <div className="contact" id="contact">
   <div className="content">
     <h1>Contact Me</h1>
-    <p>Get in touch with me for any inquiries, collaborations, or opportunities. I'm always interested in connecting with new people and exploring exciting projects. Feel free to reach out through the contact form, email, or phone, and I'll respond promptly. I look forward to hearing from you!</p>
+    <p>Get in touch with me for any inquiries, collaborations, or opportunities. I am always interested in connecting with new people and exploring exciting projects. Feel free to reach out through the contact form, email, or phone, and I will respond promptly. I look forward to hearing from you!</p>
     <div className="contactInfo">
     <div className="contactDetail">
     <p className="head">Email:</p>
