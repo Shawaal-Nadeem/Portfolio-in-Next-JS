@@ -1,10 +1,12 @@
 import { FaCopyright } from 'react-icons/fa';
-
+import {FaFacebook}from 'react-icons/fa';
+import {FaTwitter} from 'react-icons/fa';
+import {FaGithub} from 'react-icons/fa';
 export default function Home() {
   return (
     <div>
 <div className="home">
-  <video src="/videos/v1.mp4" loop autoPlay muted></video>
+  <video src="/videos/v1.mp4" loop autoPlay muted poster='/images/robot.png'></video>
   <header>
     <nav>
 <h3><a href="/">PORTFOLIO</a></h3>
@@ -119,14 +121,24 @@ export default function Home() {
   </div>
 </div>
 <footer>
+  <br/><br/><br/>
   <div>
   <FaCopyright size={24}/>
   <span> &nbsp;</span>
 <p>2023 All Rights Reserved</p>
   </div>
-  <div>
-    mvnzdfbvznz,bvzbx,
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div className='socialIcons'>
+<a href='https://www.facebook.com/profile.php?id=100073295470963'><FaFacebook size={26}/></a>
+<a href='https://twitter.com/ShawaalNadeem?t=IjNgxDNGOgIO6X8FQt_jZg&s=09'><FaTwitter size={26} style={{marginLeft:'15px'}}/></a>
+<a href='https://github.com/Shawaal-Nadeem'><FaGithub size={26} style={{marginLeft:'15px'}}/></a>
   </div>
+  <br/><br/><br/>
 </footer>
     </div>
   )
