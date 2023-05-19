@@ -26,6 +26,7 @@ height: 100%;
 header nav
 {
   display: flex;
+  align-items: center;
   justify-content: space-between;
   position: relative;
   font-family: 'Poppins', sans-serif;
@@ -312,4 +313,183 @@ footer
 footer div
 {
   display: flex;
+}
+@media screen and (max-width: 1040px) 
+{
+  .home video
+  {
+    height: 90%;
+  }
+  header nav ul
+  {
+    margin-right: 20%;
+  }
+  header nav ul li
+  {
+  margin-left: 10%;
+  }
+  .about .content h1
+{
+font-size: 40px;
+font-weight: 550;
+}
+.about .content p
+{
+  font-size: 18px;
+}
+.about .pic
+{
+  width: 28%;
+  margin-right: 4%;
+}
+.projects .content h1
+{
+  font-size: 40px;
+  font-weight: 550;
+}
+.projects .content .projPics img
+{
+  width: 95%;
+  height: 200px;
+}
+.blogs .content h1
+{
+  font-size: 40px;
+  font-weight: 550;
+}
+.blogs .content p
+{
+  width: 70%;
+  font-size: 17px;
+}
+.blogImages img
+{
+  width: 95%;
+  height: 280px;
+}
+.blogImages p
+{
+  font-size: 18px;
+}
+.contact .content h1
+{
+  font-size: 40px;
+  font-weight: 550;
+}
+.contact .content p
+{
+  font-size: 17px;
+  width: 70%;
+}
+}
+@media screen and (max-width: 870px) 
+{
+  .home video
+  {
+    height: 80%;
+  }
+  header nav ul
+  {
+    margin-right: 17%;
+  }
+  header nav ul li
+  {
+  margin-left: 7%;
+  }
+  .home .name h1
+  {
+    font-size: 50px;
+  }
+  .home .name h2
+  {
+    font-size: 45px;
+  }
+  .hireBtn
+{
+  width: 170px;
+  height: 45px;
+  font-size: 20px;
+  margin-top: 5%;
+  font-weight: 280;
+}
+.about
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.about .content
+{
+  width: 95%;
+}
+  .about .content h1
+{
+  display: flex;
+  justify-content: center;
+}
+.about .content .aboutHeading2
+{
+ display: flex;
+ justify-content: center;
+}
+.tech
+{
+  display: flex;
+ align-items: center;
+ justify-content: center;
+ width: 100%;
+}
+.tech p
+{
+  width:15%
+}
+.teach p .col2
+{
+  width: 80%;
+}
+.about .pic
+{
+  display: none;
+}
+
+.projects .content h1
+{
+  font-size: 40px;
+  font-weight: 550;
+}
+.projects .content .projPics img
+{
+  width: 95%;
+  height: 200px;
+}
+.blogs .content h1
+{
+  font-size: 40px;
+  font-weight: 550;
+}
+.blogs .content p
+{
+  width: 70%;
+  font-size: 17px;
+}
+.blogImages img
+{
+  width: 95%;
+  height: 280px;
+}
+.blogImages p
+{
+  font-size: 18px;
+}
+.contact .content h1
+{
+  font-size: 40px;
+  font-weight: 550;
+}
+.contact .content p
+{
+  font-size: 17px;
+  width: 70%;
+}
 }
