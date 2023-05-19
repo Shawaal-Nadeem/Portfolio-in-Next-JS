@@ -7,7 +7,6 @@
 
 body
 {
-  /* background: rgba(15,23,42,255); */
   background-color: rgba(30,41,59,255);
 }
 html
@@ -433,63 +432,82 @@ font-weight: 550;
  display: flex;
  justify-content: center;
 }
-.tech
-{
-  display: flex;
- align-items: center;
- justify-content: center;
- width: 100%;
-}
 .tech p
 {
-  width:15%
-}
-.teach p .col2
-{
-  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width:50%
 }
 .about .pic
 {
   display: none;
 }
-
 .projects .content h1
 {
-  font-size: 40px;
-  font-weight: 550;
+  display: flex;
+  justify-content: center;
+}
+.projects .content .projPics
+{
+  display: flex;
+  flex-direction: column;
+  margin-top: 2%;
 }
 .projects .content .projPics img
 {
-  width: 95%;
-  height: 200px;
+  margin-top: 10%;
+  width: 100%;
+  height: 300px;
 }
-.blogs .content h1
+.blogs .content
 {
-  font-size: 40px;
-  font-weight: 550;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
-.blogs .content p
+.blogImages
 {
-  width: 70%;
-  font-size: 17px;
+  display: flex;
+  flex-direction: column;
+}
+.blogSection1
+{
+  margin-top: 5%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.blogSection2
+{
+  margin-top: 8%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 .blogImages img
 {
-  width: 95%;
-  height: 280px;
+  width: 90%;
+  height: 350px;
 }
-.blogImages p
+.tagBtn
 {
-  font-size: 18px;
+display: none;
 }
-.contact .content h1
+.blogReadBtn
 {
-  font-size: 40px;
-  font-weight: 550;
+  display: flex;
+  justify-content: center;
 }
-.contact .content p
+.readBtn
 {
-  font-size: 17px;
-  width: 70%;
+  font-size: 19px;
+  margin-top: 5%;
+  margin-bottom: 7%;
+}
+.contact
+{
+margin-bottom: 5%;
 }
 }

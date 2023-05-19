@@ -84,7 +84,7 @@ export default function Home() {
   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tristique enim ac felis cursus, ut cursus ligula cursus. Duis varius nisi ut nisl hendrerit, eget venenatis nisi luctus. Nunc</p>
 </div>
 <div className="blogImages">
-  <div>
+  <div className='blogSection1'>
   <img src="/images/blogPic1.png"></img>
   <div className="tagBtn">
   <button>Tag</button>
@@ -92,7 +92,7 @@ export default function Home() {
   </div>
   <p>ut cursus ligula cursus. Duis varius nisi ut nisl hendrerit, eget venenatis nisi luctus. Nunc</p>
   </div>
-  <div>
+  <div className='blogSection2'>
   <img src="/images/blogPic2.png"></img>
   <div className="tagBtn">
   <button>Tag</button>
@@ -101,7 +101,9 @@ export default function Home() {
   <p>ut cursus ligula cursus. Duis varius nisi ut nisl hendrerit, eget venenatis nisi luctus. Nunc</p>
   </div>
 </div>
+<div className='blogReadBtn'>
 <button className="readBtn">Read More</button>
+</div>
 </div>
 </div>
 <div className="contact" id="contact">
