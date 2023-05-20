@@ -124,7 +124,7 @@ export default function Home() {
 </div>
 <footer>
   <br/><br/><br/>
-  <div>
+  <div className='copyright'>
   <FaCopyright size={24}/>
   <span> &nbsp;</span>
 <p>2023 All Rights Reserved</p>
