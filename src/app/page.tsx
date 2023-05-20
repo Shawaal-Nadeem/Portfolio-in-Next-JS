@@ -2,6 +2,7 @@ import { FaCopyright } from 'react-icons/fa';
 import {FaFacebook}from 'react-icons/fa';
 import {FaTwitter} from 'react-icons/fa';
 import {FaGithub} from 'react-icons/fa';
+import Link from 'next/link';
 export default function Home() {
   return (
     <div>
@@ -81,7 +82,7 @@ export default function Home() {
 <div className="blogs" id="blogs">
 <div className="content">
   <h1>BLOGS</h1>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tristique enim ac felis cursus, ut cursus ligula cursus. Duis varius nisi ut nisl hendrerit, eget venenatis nisi luctus. Nunc</p>
+  <p>Embark on a journey to master the art of web development as we unravel the secrets behind crafting captivating and functional websites. join me in unlocking the boundless possibilities of creating remarkable web experiences.</p>
 </div>
 <div className="blogImages">
   <div className='blogSection1'>
@@ -90,7 +91,7 @@ export default function Home() {
   <button>Tag</button>
   <button className="tagBtn2">Tag</button>
   </div>
-  <p>ut cursus ligula cursus. Duis varius nisi ut nisl hendrerit, eget venenatis nisi luctus. Nunc</p>
+  <p>Web development is the art of crafting virtual realities, where lines of code breathe life into pixels, and imagination dances with technology to shape the digital landscape.</p>
   </div>
   <div className='blogSection2'>
   <img src="/images/blogPic2.png"></img>
@@ -98,11 +99,11 @@ export default function Home() {
   <button>Tag</button>
   <button className="tagBtn2">Tag</button>
   </div>
-  <p>ut cursus ligula cursus. Duis varius nisi ut nisl hendrerit, eget venenatis nisi luctus. Nunc</p>
+  <p>Web development is the art of crafting virtual realities, where lines of code breathe life into pixels, and imagination dances with technology to shape the digital landscape.</p>
   </div>
 </div>
 <div className='blogReadBtn'>
-<button className="readBtn">Read More</button>
+<Link href={'/blogs'}><button className="readBtn">Read More</button></Link>
 </div>
 </div>
 </div>

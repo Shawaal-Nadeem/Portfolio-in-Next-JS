@@ -1,0 +1,55 @@
+.blogsPage
+{
+    background-color: rgba(30,41,59,255);
+    color: #FFFFFF;
+}
+.blogsPage h1
+{
+    font-size: 25px;
+    font-weight: bolder;
+    margin-left: 4%;
+    margin-top: 5%;
+    width: 45%;
+}
+.blogsPage .images
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.blogsPage img
+{
+    width: 55%;
+    margin-top: 4%;
+}
+.blogsPage .images p
+{
+    margin-top: 3%;
+    width: 90%;
+    font-size: 18px;
+}
+.blogsPage .images p span,.blogsPage .content p span
+{
+    font-weight: bold;
+}
+.blogsPage .content
+{
+   margin-left: 4.7%;
+}
+.blogsPage .content h2
+{
+    margin-top: 3%;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-bottom: 3%;
+}
+.blogsPage .content p
+{
+    font-size: 18px;
+    width: 95%;
+}
+.points
+{
+    margin-top: 1%;
+}
