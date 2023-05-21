@@ -69,12 +69,12 @@ transition: .5s;
 }
 .home .name h1
 {
-  font-family: 'Dancing Script', cursive;
+  font-family: 'Poppins', sans-serif;
   font-size: 55px;
 }
 .home .name h2
 {
-  font-family: 'Dancing Script', cursive;
+  font-family: 'Poppins', sans-serif;
   font-size: 50px;
 }
 .home .name h1 span
@@ -180,6 +180,7 @@ text-decoration: underline #5c5efd;
 {
   width: 90%;
   height: 230px;
+  border-radius: 15px;
 }
 
 /* BLOGS */
@@ -528,10 +529,12 @@ margin-bottom: 5%;
   .home .name h1
 {
   font-size: 45px;
+  font-family: 'Dancing Script', cursive;
 }
 .home .name h2
 {
   font-size: 40px;
+  font-family: 'Dancing Script', cursive;
 }
 .hireBtn
 {
