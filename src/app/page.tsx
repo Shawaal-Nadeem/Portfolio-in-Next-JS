@@ -67,7 +67,7 @@ export default function Home() {
   <div className="content">
   <h1>PROJECTS</h1>
   <div className="projPics">
-  <a href="shawaal-nadeem-resume.vercel.app/"><img src="/images/resume.png"></img></a>
+  <a href="https://shawaal-nadeem-resume.vercel.app/"><img src="/images/resume.png"></img></a>
   <a href="https://timely-malabi-4992be.netlify.app/"><img src="/images/apple.png"></img></a>
   <a href="https://fastidious-peony-79400b.netlify.app/"><img src="/images/wild.png"></img></a>
   </div>
